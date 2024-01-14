@@ -1,7 +1,7 @@
 <html>
 
 <body>
-    <a href=:/Lessons">Back</a>
+    <a href=":/Lessons">Back</a>
     <br />
     <h1>Lesson 1</h1>
     <?php

@@ -1,11 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<html>
+
 <body>
-    
-</body>
-</html>
+    <a href="/lessons">Back</a>
+    <br />
+    <h1>Lesson 7</h1>
+    <?php
+    echo "<h3>Variable Naming</h3>";
+    // Running on command prompt
+    echo 'Variable names must begin with a letter or underscore character.
+    <br/> A variable name can consist of numbers, letters, underscores but you cannot use characters like + , - , % , ( , ) . & , etc';
+    echo "<h3>Variable Scope</h3>";
+
+    echo "<h4>Local Variables</h4>";
+    echo '$x = 4;
+    <br/>function assignx () {
+    <br/>33
+    <br/>$x = 0;
+    <br/>print "\$x inside function is $x. 
+    <br/>";
+    <br/>}
+    <br/>assignx();
+    <br/>print "\$x outside of function is $x. 
+    <br/>";
+    ';
+
+    echo "<h4>Function Parameters</h4>";
+    echo '// multiply a value by 10 and return it to the caller
+    <br/>function multiply ($value) {
+    <br/>$value = $value * 10;
+    <br/>return $value;
